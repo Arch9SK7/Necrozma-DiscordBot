@@ -172,7 +172,7 @@ def reset_necrozma(reqs=False, data=False, cogs=False, git_reset=False):
 
 def download_ffmpeg(bitness):
     clear_screen()
-    repo = "https://github.com/Twentysix26/Necrozma-DiscordBot/raw/master/"
+    repo = "https://github.com/Arch9SK7/Necrozma-DiscordBot"
     verified = []
 
     if bitness == "32bit":
@@ -511,8 +511,7 @@ def main():
                   "installed with git.\nThis means that you won't "
                   "be able to update and some features won't be working.\n"
                   "A reinstallation is recommended. Follow the guide "
-                  "properly this time:\n"
-                  "https://twentysix26.github.io/Necrozma-Docs/\n")
+                  "properly this time:\n")
 
         if not has_git:
             print("WARNING: Git not found. This means that it's either not "
