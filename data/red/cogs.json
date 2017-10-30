@@ -1,0 +1,23 @@
+{
+    "cogs.alias" : true,
+    "cogs.audio" : false,
+    "cogs.autorole" : true,
+    "cogs.blah" : true,
+    "cogs.customcom" : true,
+    "cogs.downloader" : false,
+    "cogs.economy" : true,
+    "cogs.err" : false,
+    "cogs.friendcode" : true,
+    "cogs.gaming" : true,
+    "cogs.general" : true,
+    "cogs.image" : true,
+    "cogs.leveler" : false,
+    "cogs.mod" : true,
+    "cogs.modlog" : true,
+    "cogs.nxerr" : false,
+    "cogs.owner" : false,
+    "cogs.streams" : false,
+    "cogs.trivia" : false,
+    "cogs.warn" : true,
+    "cogs.welcome" : true
+}

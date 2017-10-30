@@ -1,0 +1,73 @@
+{
+    "Dusty-Cogs" : {
+        "autorole" : {
+            "INSTALLED" : true,
+            "file" : "data\\downloader\\Dusty-Cogs\\autorole\\autorole.py",
+            "folder" : "data\\downloader\\Dusty-Cogs\\autorole"
+        },
+        "desutils" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dusty-Cogs\\desutils\\desutils.py",
+            "folder" : "data\\downloader\\Dusty-Cogs\\desutils"
+        },
+        "greet" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dusty-Cogs\\greet\\greet.py",
+            "folder" : "data\\downloader\\Dusty-Cogs\\greet"
+        },
+        "menu" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dusty-Cogs\\menu\\menu.py",
+            "folder" : "data\\downloader\\Dusty-Cogs\\menu"
+        },
+        "moji" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dusty-Cogs\\moji\\moji.py",
+            "folder" : "data\\downloader\\Dusty-Cogs\\moji"
+        },
+        "pathfinder" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dusty-Cogs\\pathfinder\\pathfinder.py",
+            "folder" : "data\\downloader\\Dusty-Cogs\\pathfinder"
+        },
+        "requester" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dusty-Cogs\\requester\\requester.py",
+            "folder" : "data\\downloader\\Dusty-Cogs\\requester"
+        },
+        "url" : "https://github.com/Lunar-Dust/Dusty-Cogs"
+    },
+    "stevy" : {
+        "discomegle" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\stevy\\discomegle\\discomegle.py",
+            "folder" : "data\\downloader\\stevy\\discomegle"
+        },
+        "latex" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\stevy\\latex\\latex.py",
+            "folder" : "data\\downloader\\stevy\\latex"
+        },
+        "leveler" : {
+            "INSTALLED" : true,
+            "file" : "data\\downloader\\stevy\\leveler\\leveler.py",
+            "folder" : "data\\downloader\\stevy\\leveler"
+        },
+        "markov" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\stevy\\markov\\markov.py",
+            "folder" : "data\\downloader\\stevy\\markov"
+        },
+        "osu" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\stevy\\osu\\osu.py",
+            "folder" : "data\\downloader\\stevy\\osu"
+        },
+        "url" : "https://github.com/AznStevy/Maybe-Useful-Cogs/",
+        "whoplays" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\stevy\\whoplays\\whoplays.py",
+            "folder" : "data\\downloader\\stevy\\whoplays"
+        }
+    }
+}

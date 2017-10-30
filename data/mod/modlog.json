@@ -1,0 +1,36 @@
+{
+    "234548173664681984" : {
+        "1" : {
+            "action" : "BAN",
+            "amended_by" : null,
+            "amended_id" : null,
+            "case" : 1,
+            "channel" : null,
+            "created" : 1507694628.794072,
+            "message" : "367552855365910529",
+            "moderator" : "Reshiram#5026",
+            "moderator_id" : "219040433861296128",
+            "modified" : null,
+            "reason" : "Come back when u open source",
+            "until" : null,
+            "user" : "Tatsumaki#8792",
+            "user_id" : "172002275412279296"
+        },
+        "2" : {
+            "action" : "UNBAN",
+            "amended_by" : null,
+            "amended_id" : null,
+            "case" : 2,
+            "channel" : null,
+            "created" : 1507698410.688433,
+            "message" : "367568715384094721",
+            "moderator" : null,
+            "moderator_id" : null,
+            "modified" : null,
+            "reason" : null,
+            "until" : null,
+            "user" : "Tatsumaki#8792",
+            "user_id" : "172002275412279296"
+        }
+    }
+}

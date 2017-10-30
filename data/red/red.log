@@ -1,0 +1,69 @@
+[11/10/2017 05:04] ERROR necrozma load_cogs 571: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+Traceback (most recent call last):
+  File "necrozma.py", line 568, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\murra\fluff\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\murra\fluff\cogs\audio.py", line 2378, in setup
+    "".format(msg))
+RuntimeError: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+
+[11/10/2017 05:08] ERROR owner avatar 493: Unsupported image type given
+Traceback (most recent call last):
+  File "C:\Users\murra\fluff\cogs\owner.py", line 487, in avatar
+    await self.bot.edit_profile(self.bot.settings.password, avatar=data)
+  File "lib\discord\client.py", line 1841, in edit_profile
+    avatar = utils._bytes_to_base64_data(avatar_bytes)
+  File "lib\discord\utils.py", line 247, in _bytes_to_base64_data
+    mime = _get_mime_type_for_image(data)
+  File "lib\discord\utils.py", line 243, in _get_mime_type_for_image
+    raise InvalidArgument('Unsupported image type given')
+discord.errors.InvalidArgument: Unsupported image type given
+[11/10/2017 05:54] ERROR necrozma on_command_error 367: Exception in command 'info'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\murra\fluff\cogs\owner.py", line 868, in info
+    "".format(necrozma_repo, author_repo, server_url))
+NameError: name 'necrozma_repo' is not defined
+[11/10/2017 07:02] ERROR necrozma on_command_error 367: Exception in command 'profiles add'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\murra\fluff\cogs\gaming.py", line 107, in add
+    self.db[ctx.message.server.id]["profiles"][ctx.message.author.id][network] = name.strip()
+NameError: name 'name' is not defined
+[11/10/2017 07:07] ERROR necrozma on_command_error 367: Exception in command 'profiles add'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\murra\fluff\cogs\gaming.py", line 110, in add
+    "Use `" + self.bot.command_prefix[0] + "profiles show` command "
+TypeError: 'function' object is not subscriptable
+[11/10/2017 07:10] ERROR necrozma on_command_error 367: Exception in command 'profiles add'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\murra\fluff\cogs\gaming.py", line 110, in add
+    "Use `" + self.bot.command_prefix[0] + "profiles show` command "
+TypeError: 'function' object is not subscriptable
+[11/10/2017 07:10] ERROR necrozma on_command_error 367: Exception in command 'profiles add'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\murra\fluff\cogs\gaming.py", line 115, in add
+    "Use `" + self.bot.command_prefix[0] + "profiles edit` command "
+TypeError: 'function' object is not subscriptable
+[11/10/2017 07:20] ERROR necrozma on_command_error 367: Exception in command 'profiles add'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\murra\fluff\cogs\gaming.py", line 112, in add
+    "Use `" + self.bot.command_prefix[0] + "profiles edit` command "
+TypeError: 'function' object is not subscriptable
